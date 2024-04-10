@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+}
+
+.container1{
+border: solid black 3px;
+background-color: rgb(187, 185, 185);
+position: relative;
+padding: 10px 15px;
+width: 400px;
+float: left;
+
+}
+
+.container1 .c{
+    border: solid black 1px;
+    background-color: pink;
+    position: absolute;
+    padding: 5px 20px 5px 20px;
+    width: 50px;
+    left: 340px;
+    top: 0px;
+    text-align: center;
+}
+.container1 p{
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+.container2{
+    border: solid black 3px;
+    background-color: rgb(187, 185, 185);
+    position: relative;
+    padding: 10px 15px;
+    width: 400px;
+    float: left;
+    
+    }
+    
+    .container2 .c2{
+        border: solid black 1px;
+        background-color: rgb(224, 60, 60);
+        position: absolute;
+        padding: 5px 20px 5px 20px;
+        width: 50px;
+        left: 340px;
+        top: 0px;
+        text-align: center;
+    }
+    .container2 p{
+        box-sizing: border-box;
+        padding-top: 15px;
+    }
+
+    .container3{
+        border: solid black 3px;
+        background-color: rgb(187, 185, 185);
+        position: relative;
+        padding: 10px 15px;
+        width: 400px;
+        float: left;
+        
+        
+        }
+        
+        .container3 .c3{
+            border: solid black 1px;
+            background-color: rgb(255, 255, 135);
+            position: absolute;
+            padding: 5px 20px 5px 20px;
+            width: 50px;
+            left: 340px;
+            top: 0px;
+            text-align: center;
+        }
+        .container3 p{
+            box-sizing: border-box;
+            padding-top: 15px;
+        }    
+    
+
+.centrar{
+    position: relative;
+    height: 500px;
+    width: 1400px;
+    
+}
+
+.centrar>div{
+    margin: 5px;
+    display: block;
+}
+
+.h{
+    display: block;
+    text-align: center;
+   
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .container3{
+        clear: left;
+        width: 846px;
+    }
+    .container3 .c3{
+        left: 785px;
+    }
+    .centrar{
+        width: 900px;
+    }
+}   
+@media (max-width: 767px) {
+    .container2{
+        clear: left;
+    }
+    .container3{
+        clear: left;
+    }
+    .centrar{
+        width: 473px;
+    }
+}
+/*Cambio del styles*/
